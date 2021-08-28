@@ -49,6 +49,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W3b-T0-TpO"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -108,6 +111,12 @@
                             <constraint firstItem="FuH-KR-yyx" firstAttribute="leading" secondItem="Hsv-9K-1bW" secondAttribute="leading" constant="20" id="sAO-U9-7gp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="tyc-Ii-QBz" id="clh-J2-jva"/>
+                        <outlet property="conditionImageView" destination="zf9-mE-7Ee" id="jkF-7y-Xs5"/>
+                        <outlet property="searchTextField" destination="ukB-D6-c5q" id="62z-9w-LMo"/>
+                        <outlet property="temperatureLabel" destination="wW1-ob-Pol" id="fiI-47-SJF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
