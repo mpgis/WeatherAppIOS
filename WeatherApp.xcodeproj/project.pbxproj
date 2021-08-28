@@ -13,6 +13,7 @@
 		3B3E23E626DA2A9F005A29EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3E23E426DA2A9F005A29EE /* Main.storyboard */; };
 		3B3E23E826DA2AA0005A29EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3E23E726DA2AA0005A29EE /* Assets.xcassets */; };
 		3B3E23EB26DA2AA0005A29EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3E23E926DA2AA0005A29EE /* LaunchScreen.storyboard */; };
+		3B3E23F626DA353C005A29EE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3E23F526DA353C005A29EE /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3B3E23E726DA2AA0005A29EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3E23EA26DA2AA0005A29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3E23EC26DA2AA0005A29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3E23F526DA353C005A29EE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		3B3E23F226DA2CC5005A29EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B3E23F526DA353C005A29EE /* WeatherManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				3B3E23E326DA2A9F005A29EE /* WeatherViewController.swift in Sources */,
 				3B3E23DF26DA2A9F005A29EE /* AppDelegate.swift in Sources */,
+				3B3E23F626DA353C005A29EE /* WeatherManager.swift in Sources */,
 				3B3E23E126DA2A9F005A29EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
